@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TAILORED</title>
+    <link rel="stylesheet" href="tshirt.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="header-container">
+         
+            <img src="projectlogo.jpeg" alt="Project Logo" class="logo">
+          
+            <h1>TAILORED</h1>
+        </div>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="login.html">Login</a>
+        <a href="signup.html">Sign Up</a>
+        <a href="useraccount.html">User Account</a>
+        <a href="product.html">Product</a>
+        <a href="addtocart.html">Add To Cart</a>
+        <a href="aboutus.html">About Us</a>
+        <a href="templete.html">Templete</a>
+
+    <div class="container">
+        <img src="p8.png" alt="T-shirt Design" class="left-image">
+        <img src="p9.png" alt="T-shirt Design" class="left-image">
+        
+        <div class="content">
+            <h2>T-Shirt Selection</h2>
+
+            <label for="shirt">T-Shirt:</label>
+            <select id="shirt" name="shirt">
+                <option value="long">Long</option>
+                <option value="short">Short</option>
+            </select>
+
+            <button id="logo">Proceed To Logo</button>
+
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('logo').addEventListener('click', function() {
+            var shirtSelection = document.getElementById('shirt').value;
+            if (shirtSelection === 'long') {
+                window.location.href = 'logo.html';
+            } else if (shirtSelection === 'short') {
+                window.location.href = 'sublogo.html';
+            }
+        });
+    </script>
+
+</body>
+
+</html>

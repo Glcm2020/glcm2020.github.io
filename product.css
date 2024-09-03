@@ -1,0 +1,128 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+header {
+    background-color: #606260;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+nav {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 0.5em 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 0.5em 0; 
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 12px;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 800px; 
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: left; 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+}
+
+.left-image {
+    max-width: 50%; 
+    margin-right: 20px; 
+}
+
+.label-group {
+    margin-bottom: 16px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+select,
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    font-size: 16px; 
+}
+
+button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 16px; 
+}
+
+h2 {
+    font-size: 18px; 
+    font-family: 'Caveat', cursive; 
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    text-align: center;
+}
+
+.logo {
+    width: 60px; 
+    height: auto; 
+    margin-right: 10px; 
+}
+
+.left-image {
+    position: relative;
+    max-width: 50%;
+}
+
+.canvas1 {
+    width: 200px !important;
+    height: 10%;
+    margin: 7.7em;
+    padding-bottom: 6em;
+    position: absolute;
+}
+
+#canvas {
+    width: 65% !important;
+}
